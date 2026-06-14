@@ -25,5 +25,4 @@ abstract class ContaAbstrata {
     public getSaldo() { return this.Saldo }
     public setSaldo(saldo: number) { this.Saldo = saldo }
 }
-
 export { ContaAbstrata };

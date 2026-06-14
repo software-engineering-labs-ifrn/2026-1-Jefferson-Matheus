@@ -23,5 +23,4 @@ class Usuario {
     public getSenhaAutorizacao() { return this.SenhaAutorizacao; }
     public setSenhaAutorizacao(senhaAutorizacao: string) { this.SenhaAutorizacao = senhaAutorizacao; }
 }
-
 export { Usuario };
