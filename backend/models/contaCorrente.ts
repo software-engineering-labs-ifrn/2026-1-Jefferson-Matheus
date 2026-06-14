@@ -11,5 +11,4 @@ class ContaCorrente extends ContaAbstrata {
     public getLimiteChequeEspecial() { return this.LimiteChequeEspecial }
     public setLimiteChequeEspecial(limiteChequeEspecial: number) { this.LimiteChequeEspecial = limiteChequeEspecial }
 }
-
 export { ContaCorrente };

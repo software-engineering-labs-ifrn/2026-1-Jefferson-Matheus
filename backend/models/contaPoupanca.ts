@@ -11,5 +11,4 @@ class ContaPoupanca extends ContaAbstrata {
     public getTaxRendimento() { return this.TaxRendimento }
     public setTaxRendimento(taxRendimento: number) { this.TaxRendimento = taxRendimento }
 }
-
 export { ContaPoupanca };

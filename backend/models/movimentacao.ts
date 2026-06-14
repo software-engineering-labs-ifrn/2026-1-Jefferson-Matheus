@@ -42,5 +42,4 @@ class Movimentacao {
     public getConta() { return this.Conta; }
     public setConta(conta: ContaAbstrata) { this.Conta = conta; }
 }
-
 export { Movimentacao };

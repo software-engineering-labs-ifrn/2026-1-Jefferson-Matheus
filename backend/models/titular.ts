@@ -45,5 +45,4 @@ class Titular {
 
     public addConta(conta: ContaAbstrata) { this.Contas.push(conta); }
 }
-
 export { Titular };
