@@ -1,14 +1,14 @@
-import { ContaCorrente } from "../../models/contaCorrente";
+import { ContaPoupanca } from "../../models/contaPoupanca";
 import { RepositorioBase } from "./repositorioBase";
 
-class RepositorioContaConrrente implements RepositorioBase<ContaCorrente> {
-    salvar(entidade: ContaCorrente): void {
+class RepositorioContaPoupanca implements RepositorioBase<ContaPoupanca> {
+    salvar(entidade: ContaPoupanca): void {
         throw new Error("Method not implemented.");
     }
-    listarTodos(): ContaCorrente[] {
+    listarTodos(): ContaPoupanca[] {
         throw new Error("Method not implemented.");
     }
-    encontrarPorId(id: number): ContaCorrente {
+    encontrarPorId(id: number): ContaPoupanca {
         throw new Error("Method not implemented.");
     }
     deletar(id: number): void {
@@ -17,4 +17,4 @@ class RepositorioContaConrrente implements RepositorioBase<ContaCorrente> {
 
 }
 
-export { RepositorioContaConrrente };
+export {RepositorioContaPoupanca};
