@@ -24,5 +24,7 @@ abstract class ContaAbstrata {
     public setNuAgencia(nuAgencia: number) { this.Nuagencia = nuAgencia }
     public getSaldo() { return this.Saldo }
     public setSaldo(saldo: number) { this.Saldo = saldo }
+    public getMovimentacoes() { return this.Movimentacoes }
+    public setMovimentacoes(movimentacoes: Movimentacao[]) { this.Movimentacoes = movimentacoes }
 }
 export { ContaAbstrata };
