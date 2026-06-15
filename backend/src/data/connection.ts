@@ -1,11 +1,11 @@
 import dotenv from 'dotenv';
-dotenv.config({path: '../.env'});
+dotenv.config({ path: '../.env' });
 import mysql from 'mysql';
 
 class Conexao {
     private static instancia: Conexao;
     private conexaoMysql: mysql.Connection;
-    
+
     private constructor() {
         this.conexaoMysql = mysql.createConnection({
             host: process.env.DB_HOST,
@@ -14,9 +14,6 @@ class Conexao {
             database: process.env.DB_NAME,
             password: process.env.DB_PASSWORD
         });
-
-        this.conexaoMysql.connect();
-
     }
 
     public static getInstancia(): Conexao {
